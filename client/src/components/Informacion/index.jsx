@@ -3,13 +3,13 @@ import imagen from "./imagen-info.jpg";
 const Informacion = () => {
   return (
     <>
-      <div>
-        <div>
+      <div className="flex w-full p-12">
+        <div className=" w-1/2">
           <img src={imagen} alt="weewewew" />
         </div>
-        <div>
-          <p>BIENVENIDOS </p>
-          <span>a nuestra clinica</span>{" "}
+        <div className=" w-1/2 px-6">
+          <p className="text-7xl font-bold ">BIENVENIDOS </p>
+          <span className="text-gray-400">a nuestra clinica</span>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
             consequatur non vel quam autem eaque, laborum labore accusantium
